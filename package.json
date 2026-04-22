@@ -1,0 +1,11 @@
+{
+  "name": "words-app",
+  "version": "1.0.0",
+  "description": "Сервис для изучения иностранных слов",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["words", "learning", "education"],
+  "license": "MIT"
+}

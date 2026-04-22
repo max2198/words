@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучение слов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Изучение слов</h1>
+            <div class="language-toggle">
+                <button id="langToggle">Русский</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="stats">
+                <span id="wordCount">Слово 1 из 10</span>
+                <span id="dueStats">Повторение: 0 | Новые: 0</span>
+                <span id="progress">Прогресс: 0%</span>
+            </div>
+
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar">
+                    <!-- Здесь будут отмеченные ответы -->
+                </div>
+            </div>
+
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div class="new-word-badge" id="newWordBadge" style="display: none;">Новое слово</div>
+                            <div class="word" id="wordFront"></div>
+                            <div class="transcription" id="transcriptionFront"></div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="word" id="wordBack"></div>
+                            <div class="transcription" id="transcriptionBack"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="difficulty-buttons">
+            <button class="difficulty-btn" data-difficulty="again">Забыл</button>
+            <button class="difficulty-btn" data-difficulty="remember">Помню</button>
+        </div>
+        </main>
+
+        <div class="lesson-complete" id="lessonComplete" style="display: none;">
+            <h2>Урок завершен!</h2>
+            <p>Вы изучили 10 слов</p>
+            <p>Правильных ответов: <span id="correctCount">0</span></p>
+            <p>Ошибок: <span id="incorrectCount">0</span></p>
+            <button id="restartBtn" class="btn">Начать заново</button>
+        </div>
+    </div>
+
+    <!-- Progress Modal -->
+    <div class="progress-modal" id="progressModal" style="display: none;">
+        <div class="progress-modal-overlay" id="progressModalOverlay"></div>
+        <div class="progress-modal-content">
+            <div class="progress-modal-header">
+                <h2>Прогресс обучения</h2>
+                <button id="closeProgressModal" class="close-modal-btn">×</button>
+            </div>
+            <div class="progress-stats">
+                <div class="progress-stat">
+                    <span class="stat-value" id="statNew">0</span>
+                    <span class="stat-label">Новые</span>
+                </div>
+                <div class="progress-stat">
+                    <span class="stat-value" id="statLearning">0</span>
+                    <span class="stat-label">Изучается</span>
+                </div>
+                <div class="progress-stat">
+                    <span class="stat-value" id="statDue">0</span>
+                    <span class="stat-label">Повторение</span>
+                </div>
+                <div class="progress-stat">
+                    <span class="stat-value" id="statMastered">0</span>
+                    <span class="stat-label">Уроков</span>
+                </div>
+            </div>
+            <div class="progress-table-container">
+                <table class="progress-table">
+                    <thead>
+                        <tr>
+                            <th>Слово</th>
+                            <th>Перевод</th>
+                            <th>Статус</th>
+                            <th>Интервал</th>
+                            <th>След. повторение</th>
+                        </tr>
+                    </thead>
+                    <tbody id="progressTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden admin trigger button -->
+    <button id="adminTrigger" title=""></button>
+
+    <script src="script.js"></script>
+    </body>
+    </html>

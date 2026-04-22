@@ -1,0 +1,3115 @@
+{
+  "wordProgress": {
+    "the": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891879013,
+      "nextReview": 1776895479013,
+      "status": "learning"
+    },
+    "be": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892422530,
+      "nextReview": 1776978822530,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "to": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892420384,
+      "nextReview": 1776978820384,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "of": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891993422,
+      "nextReview": 1776978393422,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "and": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892124965,
+      "nextReview": 1776978524965,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "a": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "in": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892424427,
+      "nextReview": 1776978824427,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "that": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892410710,
+      "nextReview": 1776978810710,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "have": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892229029,
+      "nextReview": 1776978629029,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "i": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891964443,
+      "nextReview": 1776978364443,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "it": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891990746,
+      "nextReview": 1776978390746,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "for": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776891991473,
+      "nextReview": 1776978391473,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "not": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891994113,
+      "nextReview": 1776978394113,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "on": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "with": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "he": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892126742,
+      "nextReview": 1776978526742,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "as": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "you": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "do": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "at": {
+      "interval": 2,
+      "repetitionCount": 2,
+      "easFactor": 1.96,
+      "lastReview": 1776892423715,
+      "nextReview": 1777065223715,
+      "status": "review",
+      "totalReviews": 3
+    },
+    "this": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "but": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "his": {
+      "interval": 2,
+      "repetitionCount": 2,
+      "easFactor": 2.5,
+      "lastReview": 1776892217958,
+      "nextReview": 1777065017958,
+      "status": "review",
+      "totalReviews": 2
+    },
+    "by": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776891993730,
+      "nextReview": 1776978393730,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "from": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "they": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892414219,
+      "nextReview": 1776978814219,
+      "status": "learning",
+      "totalReviews": 2
+    },
+    "we": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "say": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "her": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "she": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "or": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "an": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "will": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892427435,
+      "nextReview": 1776978827435,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "my": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "one": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892231654,
+      "nextReview": 1776978631654,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "all": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "would": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "there": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "their": {
+      "interval": 2,
+      "repetitionCount": 2,
+      "easFactor": 2.5,
+      "lastReview": 1776892223111,
+      "nextReview": 1777065023111,
+      "status": "review",
+      "totalReviews": 2
+    },
+    "what": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892417939,
+      "nextReview": 1776978817939,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "so": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "up": {
+      "interval": 2,
+      "repetitionCount": 2,
+      "easFactor": 2.5,
+      "lastReview": 1776892635928,
+      "nextReview": 1777065435928,
+      "status": "review",
+      "totalReviews": 2
+    },
+    "out": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "if": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892644861,
+      "nextReview": 1776979044861,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "about": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "who": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892428589,
+      "nextReview": 1776978828589,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "get": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "which": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "go": {
+      "interval": 5,
+      "repetitionCount": 3,
+      "easFactor": 2.5,
+      "lastReview": 1776892426055,
+      "nextReview": 1777324426055,
+      "status": "review",
+      "totalReviews": 3
+    },
+    "me": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "when": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "make": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "can": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "like": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891963460,
+      "nextReview": 1776978363460,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "time": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "no": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892634060,
+      "nextReview": 1776979034060,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "just": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "him": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892223958,
+      "nextReview": 1776978623958,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "know": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "take": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "people": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892127110,
+      "nextReview": 1776978527110,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "into": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892625451,
+      "nextReview": 1776979025451,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "year": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "your": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892643826,
+      "nextReview": 1776979043826,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "good": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "some": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "could": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776891965591,
+      "nextReview": 1776978365591,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "them": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "see": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "other": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "than": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "then": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891964608,
+      "nextReview": 1776978364608,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "now": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "look": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "only": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "come": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "its": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "over": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "think": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "also": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 1.96,
+      "lastReview": 1776892640263,
+      "nextReview": 1776979040263,
+      "status": "learning",
+      "totalReviews": 2
+    },
+    "back": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "after": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "use": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892638201,
+      "nextReview": 1776979038201,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "two": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892231946,
+      "nextReview": 1776978631946,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "how": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "our": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892127875,
+      "nextReview": 1776978527875,
+      "status": "learning",
+      "totalReviews": 2
+    },
+    "work": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "first": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "well": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "way": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892227529,
+      "nextReview": 1776978627529,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "even": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892231084,
+      "nextReview": 1776978631084,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "new": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776891964255,
+      "nextReview": 1776978364255,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "want": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "because": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "any": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "these": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776892124185,
+      "nextReview": 1776978524185,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "give": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776892229914,
+      "nextReview": 1776978629914,
+      "status": "learning",
+      "totalReviews": 2
+    },
+    "day": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "most": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "us": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776891957911,
+      "status": "new"
+    },
+    "thing": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "man": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776893991593,
+      "nextReview": 1776980391593,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "world": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "life": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hand": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "part": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776893993880,
+      "nextReview": 1776980393880,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "child": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "eye": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "place": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "week": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "case": {
+      "interval": 1,
+      "repetitionCount": 0,
+      "easFactor": 1.96,
+      "lastReview": 1776893997766,
+      "nextReview": 1776980397766,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "point": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "government": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "company": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "number": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "group": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "problem": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fact": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "school": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "family": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "room": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "story": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "book": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "idea": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "head": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "house": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776894003638,
+      "nextReview": 1776980403638,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "water": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hope": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "state": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "space": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "end": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "side": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "city": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "arm": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "foot": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "system": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "set": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "order": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "event": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "matter": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "result": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776893995553,
+      "nextReview": 1776980395553,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "power": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "center": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "mind": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "door": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "month": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "value": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "example": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "information": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776893994743,
+      "nextReview": 1776980394743,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "love": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hour": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776894005310,
+      "nextReview": 1776980405310,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "trial": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "answer": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "voice": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fish": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "market": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776894004537,
+      "nextReview": 1776980404537,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "night": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "condition": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "food": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sun": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "body": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "seat": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "road": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "chance": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "method": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "blood": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "air": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "pressure": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "land": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776893999581,
+      "nextReview": 1776980399581,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "line": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "song": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "paper": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "game": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "amount": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "effect": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "message": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "winter": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "position": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "woman": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "town": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "moon": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "rain": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "name": {
+      "interval": 1,
+      "repetitionCount": 1,
+      "easFactor": 2.5,
+      "lastReview": 1776894006532,
+      "nextReview": 1776980406532,
+      "status": "learning",
+      "totalReviews": 1
+    },
+    "money": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "heart": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "star": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "tree": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "flower": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "music": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "color": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "face": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "earth": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fire": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "friend": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "table": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "morning": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "letter": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "shadow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sugar": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sleep": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "truth": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "run": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "find": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "tell": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "ask": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "try": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "learn": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hold": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "feel": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "leave": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "call": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "keep": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "let": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "begin": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "show": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hear": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "play": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "move": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "live": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "believe": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "bring": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "happen": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "write": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sit": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "stand": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "lose": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "pay": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "meet": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "include": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "continue": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "settle": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "open": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "create": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "seem": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "offer": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "arrive": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "design": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "spend": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "expect": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "carry": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "develop": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "buy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "read": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "understand": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "change": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "lead": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "watch": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "follow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "stop": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "grow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "break": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "cover": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "draw": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "choose": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "cause": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "appear": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "prepare": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "slow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "great": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "long": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "little": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "old": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "right": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "big": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "high": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "different": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "small": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "large": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "next": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "early": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "young": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "important": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "few": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "public": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "bad": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "wide": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "whole": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "entire": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "clear": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "simple": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "able": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "full": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "strong": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "possible": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "quick": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "soft": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "dark": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "heavy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "easy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "beautiful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "rich": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "safe": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fresh": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "happy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "modern": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "natural": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "warm": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "cold": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "deep": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "dry": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hard": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hot": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "kind": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "late": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "low": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "nice": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "red": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "short": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sweet": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "white": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "wrong": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "yellow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "alive": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "aware": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "brave": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "clean": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "common": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "crazy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "dangerous": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "empty": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fair": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "famous": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fancy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fast": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fat": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "free": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "fun": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "gentle": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "golden": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "graceful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "greedy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "handsome": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "healthy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "helpful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "honest": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "hungry": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "immediate": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "interesting": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "lazy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "light": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "loud": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "lovely": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "lucky": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "magnetic": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "mental": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "mild": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "mysterious": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "narrow": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "nervous": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "pale": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "plain": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "pleasant": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "proud": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "purple": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "quiet": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "rare": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "recent": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "round": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sad": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "serious": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "shy": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "sick": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "silly": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "smooth": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "special": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "tall": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "tender": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "terrible": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "thick": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "thin": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "tight": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "ugly": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "useful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930823,
+      "status": "new"
+    },
+    "vain": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "vast": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "weak": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "wild": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "wise": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "wonderful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "wooden": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "youthful": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    },
+    "zealous": {
+      "interval": 0,
+      "repetitionCount": 0,
+      "easFactor": 2.5,
+      "lastReview": null,
+      "nextReview": 1776893930824,
+      "status": "new"
+    }
+  },
+  "totalReviews": 63,
+  "lessonsCompleted": 5,
+  "lastSync": "2026-04-22T21:40:09.533Z",
+  "version": 1
+}

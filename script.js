@@ -517,6 +517,7 @@ function initAdminTrigger() {
     }
 
     trigger.addEventListener('click', openModal);
+    document.getElementById('progressBtn')?.addEventListener('click', openModal);
     closeBtn?.addEventListener('click', closeModal);
     overlay?.addEventListener('click', closeModal);
 

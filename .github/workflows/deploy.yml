@@ -18,21 +18,19 @@ jobs:
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
             
-            # Если папка .git существует — обновляем, если нет — клонируем
             if [ -d .git ]; then
               echo "Updating repository..."
-              git pull origin main
+              git fetch --all
+              git reset --hard origin/main
             else
               echo "Cloning repository..."
-              # ЗАМЕНИ 'ТВОЙ_ЛОГИН' И 'ТВОЙ_РЕПО' на свои реальные данные из адресной строки браузера
-              git clone https://github.com .
+              # ВНИМАНИЕ: Вставь сюда свою ссылку! 
+              # Например: https://github.com
+              https://github.com/max2198/words
             fi
             
-            # Запускаем docker-compose. 
-            # Добавили флаг -f, чтобы исключить ошибку "not found"
-            if [ -f docker-compose.yml ]; then
-              docker compose up -d --build
-            else
-              echo "Error: docker-compose.yml not found in repository!"
-              exit 1
-            fi
+            # Проверяем, скачались ли файлы
+            ls -la
+            
+            echo "Starting Docker..."
+            docker compose up -d --build

@@ -13,33 +13,27 @@ jobs:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221 # Твой порт
-          # ВАЖНО: пробрасываем секрет внутрь скрипта
-          envs: GH_TOKEN
+          port: 2221 # Проверь, 2221 или 2222!
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            echo "Configuring git..."
-            # Настраиваем авторизацию через заголовок (самый безопасный способ)
-            git config --global http.https://github.com "AUTHORIZATION: basic $(echo -n x-access-token:${{ secrets.GH_TOKEN }} | base64)"
-
-            if [ -d .git ]; then
-              echo "Updating..."
-              git fetch --all
-              git reset --hard origin/main
-            else
-              echo "Cloning..."
-              # Теперь ссылка чистая, без токена внутри (авторизация сработает из конфига)
-              git clone https://github.com .
+            # Чистим папку, если там завис неудачный клон
+            if [ ! -d .git ]; then
+              rm -rf * .git
             fi
 
-            echo "List of files:"
-            ls -F
+            echo "Cloning repository..."
+            # Используем токен напрямую в ссылке, без лишних пробелов
+            git clone https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com/max2198/words/ . || (git fetch --all && git reset --hard origin/main)
+
+            echo "Checking files:"
+            ls -la
 
             if [ -f "docker-compose.yml" ]; then
+              echo "File found! Starting Docker..."
               docker compose up -d --build
             else
-              echo "Still no docker-compose.yml found!"
+              echo "CRITICAL: docker-compose.yml NOT FOUND in $(pwd)"
               exit 1
             fi

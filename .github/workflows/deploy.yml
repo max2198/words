@@ -1,7 +1,7 @@
 name: Deploy App
 on:
   push:
-    branches: [ main ] # Скрипт сработает при пуше в ветку main
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -13,23 +13,23 @@ jobs:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221 # Твой новый порт SSH
+          port: 2221 # Если ты настраивал 2221, поменяй здесь
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
             
             if [ -d .git ]; then
               echo "Updating repository..."
+              # Используем токен для обновления в приватном репо
+              git remote set-url origin https://${{ secrets.GH_TOKEN }}@://github.com
               git fetch --all
               git reset --hard origin/main
             else
-              echo "Cloning repository..."
-              # ВНИМАНИЕ: Вставь сюда свою ссылку! 
-              # Например: https://github.com
-              https://github.com/max2198/words
+              echo "Cloning private repository..."
+              # Используем токен для клонирования
+              git clone https://${{ secrets.GH_TOKEN }}@://github.com .
             fi
             
-            # Проверяем, скачались ли файлы
             ls -la
             
             echo "Starting Docker..."

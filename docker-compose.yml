@@ -3,8 +3,10 @@ services:
     build: .
     restart: always
     # Это внутренний порт. Снаружи мы его закроем и пустим через Nginx Proxy Manager
-    expose:
-      - "8000" 
+    # expose:
+    #  - "8000" 
+    ports:
+    - "8000:8000"
     logging:
       driver: "json-file"
       options:

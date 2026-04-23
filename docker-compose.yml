@@ -1,5 +1,5 @@
 services:
-  web:
+  words-app:
     build: .
     restart: always
     # Это внутренний порт. Снаружи мы его закроем и пустим через Nginx Proxy Manager

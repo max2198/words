@@ -15,26 +15,30 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 2221 # Оставь свой порт (2221 или 2222)
           script: |
-            # 1. Заходим в папку или создаем её
+            # 1. Жестко задаем переменную со ссылкой прямо в начале скрипта
+            REPO_URL="https://github.com"
+            
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
-
-            # 2. ПОЛНОСТЬЮ очищаем папку, чтобы не было конфликтов
+            
+            echo "Cleaning up..."
             rm -rf * .git
-
-            echo "Starting clone of public repository..."
-            # 3. Клонируем с явным указанием ссылки БЕЗ переменных
-            git clone https://github.com .
-
-            echo "Files found on server:"
+            
+            echo "Executing: git clone $REPO_URL ."
+            # 2. Используем переменную в кавычках
+            git clone "$REPO_URL" .
+            
+            echo "Current directory: $(pwd)"
+            echo "Files list:"
             ls -F
-
-            # 4. Проверяем наличие файла и запускаем
+            
             if [ -f "docker-compose.yml" ]; then
-              echo "Success! Starting Docker..."
+              echo "Starting Docker Compose..."
               docker compose up -d --build
             else
-              echo "CRITICAL ERROR: docker-compose.yml NOT FOUND!"
-              echo "Full path is: $(pwd)"
+              echo "CRITICAL: docker-compose.yml NOT FOUND!"
+              # Выведем содержимое папки подробнее для диагностики
+              ls -la
               exit 1
             fi
+

@@ -25,7 +25,7 @@ jobs:
 
             echo "Cloning repository..."
             # Используем токен напрямую в ссылке, без лишних пробелов
-            git clone https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com/max2198/words/ . || (git fetch --all && git reset --hard origin/main)
+            git clone https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com/ . || (git fetch --all && git reset --hard origin/main)
 
             echo "Checking files:"
             ls -la

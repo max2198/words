@@ -9,36 +9,36 @@ jobs:
     steps:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221
-          # ЯВНО ПЕРЕДАЕМ ТОКЕН В ОКРУЖЕНИЕ
+          port: 2221 # Убедись, что на сервере настроен именно этот порт!
           envs: GH_TOKEN
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        with:
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            # Очистка папки от неудачных попыток
+            # Очистка папки от предыдущих неудачных попыток
             if [ ! -d .git ]; then
+              echo "Cleaning up directory..."
               rm -rf * .git
             fi
 
             echo "Cloning repository..."
-            # Используем переменную окружения через $
+            # Используем переменную GH_TOKEN, которую пробросили выше
             git clone https://x-access-token:$GH_TOKEN@://github.com . || (git fetch --all && git reset --hard origin/main)
 
-            echo "Checking files:"
+            echo "Current files in folder:"
             ls -F
 
             if [ -f "docker-compose.yml" ]; then
-              echo "Success! Starting Docker..."
+              echo "Starting Docker..."
               docker compose up -d --build
             else
-              echo "Error: docker-compose.yml not found!"
+              echo "CRITICAL ERROR: docker-compose.yml not found!"
+              echo "Ensure the file is in the root of your repository."
               exit 1
             fi

@@ -15,8 +15,8 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 2221 # Оставь свой порт (2221 или 2222)
           script: |
-            # 1. Жестко задаем переменную со ссылкой прямо в начале скрипта
-            REPO_URL="https://github.com"
+            # Декодируем ссылку на лету, чтобы избежать обрезания слэшей
+            REPO_URL=$(echo "aHR0cHM6Ly9naXRodWIuY29tL21heDIxOTgvd29yZHMuZ2l0" | base64 --decode)
             
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
@@ -24,21 +24,15 @@ jobs:
             echo "Cleaning up..."
             rm -rf * .git
             
-            echo "Executing: git clone $REPO_URL ."
-            # 2. Используем переменную в кавычках
+            echo "Cloning from URL..."
             git clone "$REPO_URL" .
             
-            echo "Current directory: $(pwd)"
             echo "Files list:"
             ls -F
             
             if [ -f "docker-compose.yml" ]; then
-              echo "Starting Docker Compose..."
               docker compose up -d --build
             else
               echo "CRITICAL: docker-compose.yml NOT FOUND!"
-              # Выведем содержимое папки подробнее для диагностики
-              ls -la
               exit 1
             fi
-

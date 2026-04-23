@@ -15,26 +15,26 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 2221 # Оставь свой порт (2221 или 2222)
           script: |
+            # 1. Заходим в папку или создаем её
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            if [ -d .git ]; then
-              echo "Updating repository..."
-              git fetch --all
-              git reset --hard origin/main
-            else
-              echo "Cloning public repository..."
-              # Просто прямая ссылка без всяких токенов
-              git clone https://github.com .
-            fi
+            # 2. ПОЛНОСТЬЮ очищаем папку, чтобы не было конфликтов
+            rm -rf * .git
 
-            echo "Current files:"
+            echo "Starting clone of public repository..."
+            # 3. Клонируем с явным указанием ссылки БЕЗ переменных
+            git clone https://github.com .
+
+            echo "Files found on server:"
             ls -F
 
+            # 4. Проверяем наличие файла и запускаем
             if [ -f "docker-compose.yml" ]; then
-              echo "Starting Docker..."
+              echo "Success! Starting Docker..."
               docker compose up -d --build
             else
-              echo "Error: docker-compose.yml not found!"
+              echo "CRITICAL ERROR: docker-compose.yml NOT FOUND!"
+              echo "Full path is: $(pwd)"
               exit 1
             fi

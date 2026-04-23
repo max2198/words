@@ -15,15 +15,13 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 2221 # Оставь свой порт (2221 или 2222)
           script: |
-            # Декодируем ссылку на лету, чтобы избежать обрезания слэшей
             REPO_URL=$(echo "aHR0cHM6Ly9naXRodWIuY29tL21heDIxOTgvd29yZHMuZ2l0" | base64 --decode)
             
+            # Создаем и СРАЗУ ПОЛНОСТЬЮ вычищаем папку
             mkdir -p ~/projects/my-app
+            rm -rf ~/projects/my-app/* ~/projects/my-app/.* 2>/dev/null || true
             cd ~/projects/my-app
-            
-            echo "Cleaning up..."
-            rm -rf * .git
-            
+
             echo "Cloning from URL..."
             git clone "$REPO_URL" .
             
@@ -31,7 +29,8 @@ jobs:
             ls -F
             
             if [ -f "docker-compose.yml" ]; then
-              docker compose up -d --build
+              # Добавляем -p words, чтобы у проекта было четкое имя в докере
+              docker compose -p words up -d --build
             else
               echo "CRITICAL: docker-compose.yml NOT FOUND!"
               exit 1

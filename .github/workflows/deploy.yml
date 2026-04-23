@@ -15,17 +15,24 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 2221 # Твой новый порт SSH
           script: |
-            # Создаем папку для проекта, если её еще нет
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
             
-            # Если папка пустая - клонируем репо, если нет - подтягиваем изменения
+            # Если папка .git существует — обновляем, если нет — клонируем
             if [ -d .git ]; then
+              echo "Updating repository..."
               git pull origin main
             else
-              git clone https://github.com{{ github.repository }}.git .
+              echo "Cloning repository..."
+              # ЗАМЕНИ 'ТВОЙ_ЛОГИН' И 'ТВОЙ_РЕПО' на свои реальные данные из адресной строки браузера
+              git clone https://github.com .
             fi
             
-            # Запускаем сборку и обновление контейнеров
-            # --build заставит Docker пересобрать образы, если код изменился
-            docker compose up -d --build
+            # Запускаем docker-compose. 
+            # Добавили флаг -f, чтобы исключить ошибку "not found"
+            if [ -f docker-compose.yml ]; then
+              docker compose up -d --build
+            else
+              echo "Error: docker-compose.yml not found in repository!"
+              exit 1
+            fi

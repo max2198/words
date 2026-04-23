@@ -9,38 +9,32 @@ jobs:
     steps:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@master
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221
-          envs: GH_TOKEN
+          port: 2221 # Оставь свой порт (2221 или 2222)
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
-
-            # Настраиваем временную авторизацию для Git
-            git config --global url."https://x-access-token:${GH_TOKEN}@://github.com".insteadOf "https://://github.com"
 
             if [ -d .git ]; then
               echo "Updating repository..."
               git fetch --all
               git reset --hard origin/main
             else
-              echo "Cloning repository..."
-              cd .. && rm -rf my-app && mkdir my-app && cd my-app
-              git clone https://://github.commax2198/words.git .
+              echo "Cloning public repository..."
+              # Просто прямая ссылка без всяких токенов
+              git clone https://github.com .
             fi
 
-            echo "--- Files on server ---"
+            echo "Current files:"
             ls -F
-            
+
             if [ -f "docker-compose.yml" ]; then
               echo "Starting Docker..."
               docker compose up -d --build
             else
-              echo "ERROR: docker-compose.yml not found!"
+              echo "Error: docker-compose.yml not found!"
               exit 1
             fi

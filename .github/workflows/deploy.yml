@@ -28,8 +28,7 @@ jobs:
             fi
 
             echo "Cloning repository..."
-            # Используем переменную GH_TOKEN, которую пробросили выше
-            git clone https://x-access-token:$GH_TOKEN@://github.com . || (git fetch --all && git reset --hard origin/main)
+            git clone https://github.com . || (git fetch --all && git reset --hard origin/main)
 
             echo "Current files in folder:"
             ls -F

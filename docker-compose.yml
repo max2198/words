@@ -6,7 +6,7 @@ services:
     # expose:
     #  - "8000" 
     ports:
-      - "8080:8000"
+      - "8080:3000"
     logging:
       driver: "json-file"
       options:

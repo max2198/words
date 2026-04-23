@@ -17,26 +17,29 @@ jobs:
           # ВАЖНО: пробрасываем секрет внутрь скрипта
           envs: GH_TOKEN
           script: |
-            export GH_TOKEN=${{ secrets.GH_TOKEN }}
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
-            
-            # Очистка, если прошлая попытка создала пустую папку
-            if [ ! -d .git ]; then
-              cd .. && rm -rf my-app && mkdir my-app && cd my-app
+
+            echo "Configuring git..."
+            # Настраиваем авторизацию через заголовок (самый безопасный способ)
+            git config --global http.https://github.com "AUTHORIZATION: basic $(echo -n x-access-token:${{ secrets.GH_TOKEN }} | base64)"
+
+            if [ -d .git ]; then
+              echo "Updating..."
+              git fetch --all
+              git reset --hard origin/main
+            else
+              echo "Cloning..."
+              # Теперь ссылка чистая, без токена внутри (авторизация сработает из конфига)
+              git clone https://github.com .
             fi
 
-            echo "Starting clone..."
-            # Используем переменную окружения
-            git clone https://x-access-token:$GH_TOKEN@://github.com . || (git fetch --all && git reset --hard origin/main)
+            echo "List of files:"
+            ls -F
 
-            echo "Checking files:"
-            ls -la
-            
             if [ -f "docker-compose.yml" ]; then
-              echo "Starting Docker..."
               docker compose up -d --build
             else
-              echo "Error: docker-compose.yml not found!"
+              echo "Still no docker-compose.yml found!"
               exit 1
             fi

@@ -1,0 +1,31 @@
+name: Deploy App
+on:
+  push:
+    branches: [ main ] # Скрипт сработает при пуше в ветку main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: root
+          password: ${{ secrets.PASSWORD }}
+          port: 2221 # Твой новый порт SSH
+          script: |
+            # Создаем папку для проекта, если её еще нет
+            mkdir -p ~/projects/my-app
+            cd ~/projects/my-app
+            
+            # Если папка пустая - клонируем репо, если нет - подтягиваем изменения
+            if [ -d .git ]; then
+              git pull origin main
+            else
+              git clone https://github.com{{ github.repository }}.git .
+            fi
+            
+            # Запускаем сборку и обновление контейнеров
+            # --build заставит Docker пересобрать образы, если код изменился
+            docker compose up -d --build

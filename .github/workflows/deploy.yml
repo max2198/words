@@ -13,27 +13,32 @@ jobs:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221 # Проверь, 2221 или 2222!
+          port: 2221
+          # ЯВНО ПЕРЕДАЕМ ТОКЕН В ОКРУЖЕНИЕ
+          envs: GH_TOKEN
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            # Чистим папку, если там завис неудачный клон
+            # Очистка папки от неудачных попыток
             if [ ! -d .git ]; then
               rm -rf * .git
             fi
 
             echo "Cloning repository..."
-            # Используем токен напрямую в ссылке, без лишних пробелов
-            git clone https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com/ . || (git fetch --all && git reset --hard origin/main)
+            # Используем переменную окружения через $
+            git clone https://x-access-token:$GH_TOKEN@://github.com . || (git fetch --all && git reset --hard origin/main)
 
             echo "Checking files:"
-            ls -la
+            ls -F
 
             if [ -f "docker-compose.yml" ]; then
-              echo "File found! Starting Docker..."
+              echo "Success! Starting Docker..."
               docker compose up -d --build
             else
-              echo "CRITICAL: docker-compose.yml NOT FOUND in $(pwd)"
+              echo "Error: docker-compose.yml not found!"
               exit 1
             fi

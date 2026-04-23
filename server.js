@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
     });
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`\n✅ Сервер запущен!`);
-    console.log(`📍 Откройте: http://localhost:${PORT}\n`);
+    console.log(`📍 Доступен внутри контейнера на порту: ${PORT}\n`);
 });

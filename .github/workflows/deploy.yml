@@ -9,35 +9,43 @@ jobs:
     steps:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@master
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
-          port: 2221 # Убедись, что на сервере настроен именно этот порт!
+          port: 2221
+          # Передаем токен как обычную строку
           envs: GH_TOKEN
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            # Очистка папки от предыдущих неудачных попыток
-            if [ ! -d .git ]; then
-              echo "Cleaning up directory..."
-              rm -rf * .git
+            # 1. Настраиваем авторизацию (самый надежный метод для приватных репо)
+            git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+
+            # 2. Очистка и клонирование
+            if [ -d .git ]; then
+              echo "Updating repository..."
+              git fetch --all
+              git reset --hard origin/main
+            else
+              echo "Cloning repository..."
+              cd .. && rm -rf my-app && mkdir my-app && cd my-app
+              git clone https://github.com .
             fi
 
-            echo "Cloning repository..."
-            git clone https://github.com . || (git fetch --all && git reset --hard origin/main)
-
-            echo "Current files in folder:"
+            # 3. Проверка файлов
+            echo "--- Files on server ---"
             ls -F
-
+            
+            # 4. Запуск Docker
             if [ -f "docker-compose.yml" ]; then
               echo "Starting Docker..."
               docker compose up -d --build
             else
-              echo "CRITICAL ERROR: docker-compose.yml not found!"
-              echo "Ensure the file is in the root of your repository."
+              echo "ERROR: docker-compose.yml not found in $(pwd)"
               exit 1
             fi

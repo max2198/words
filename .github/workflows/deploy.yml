@@ -20,17 +20,23 @@ jobs:
             
             if [ -d .git ]; then
               echo "Updating repository..."
-              # Используем токен для обновления в приватном репо
-              git remote set-url origin https://${{ secrets.GH_TOKEN }}@://github.com
+              git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com
               git fetch --all
               git reset --hard origin/main
             else
               echo "Cloning private repository..."
-              # Используем токен для клонирования
-              git clone https://${{ secrets.GH_TOKEN }}@://github.com .
+              # Прямая ссылка с токеном доступа
+              git clone https://x-access-token:${{ secrets.GH_TOKEN }}@://github.com .
             fi
             
+            echo "Current files:"
             ls -la
             
-            echo "Starting Docker..."
-            docker compose up -d --build
+            if [ -f docker-compose.yml ]; then
+              echo "Starting Docker..."
+              docker compose up -d --build
+            else
+              echo "Error: docker-compose.yml not found in the repository!"
+              exit 1
+            fi
+

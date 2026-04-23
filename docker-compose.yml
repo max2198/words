@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    restart: always
+    # Это внутренний порт. Снаружи мы его закроем и пустим через Nginx Proxy Manager
+    expose:
+      - "8000" 
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m" # Чтобы логи не съели все 10 ГБ диска

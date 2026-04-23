@@ -9,24 +9,21 @@ jobs:
     steps:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
           port: 2221
-          # Передаем токен как обычную строку
           envs: GH_TOKEN
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        with:
           script: |
             mkdir -p ~/projects/my-app
             cd ~/projects/my-app
 
-            # 1. Настраиваем авторизацию (самый надежный метод для приватных репо)
-            git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+            # Настраиваем авторизацию для приватного репозитория
+            git config --global url."https://x-access-token:${GH_TOKEN}@://github.com".insteadOf "https://://github.com"
 
-            # 2. Очистка и клонирование
             if [ -d .git ]; then
               echo "Updating repository..."
               git fetch --all
@@ -34,18 +31,16 @@ jobs:
             else
               echo "Cloning repository..."
               cd .. && rm -rf my-app && mkdir my-app && cd my-app
-              git clone https://github.com .
+              git clone https://://github.commax2198/words.git .
             fi
 
-            # 3. Проверка файлов
             echo "--- Files on server ---"
             ls -F
             
-            # 4. Запуск Docker
             if [ -f "docker-compose.yml" ]; then
               echo "Starting Docker..."
               docker compose up -d --build
             else
-              echo "ERROR: docker-compose.yml not found in $(pwd)"
+              echo "ERROR: docker-compose.yml not found!"
               exit 1
             fi

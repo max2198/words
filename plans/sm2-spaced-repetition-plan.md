@@ -12,7 +12,7 @@
       "repetitionCount": 0,
       "easFactor": 2.5,
       "lastReview": null,
-      "nextReview": "2026-04-22T18:00:00.000Z",
+      "nextReview": 1782237600000,
       "status": "new"
     }
   },
@@ -25,8 +25,8 @@
 - `interval` — текущий интервал повторения в днях
 - `repetitionCount` — количество успешных повторений
 - `easFactor` — Easy Factor (начальное значение 2.5, уменьшается при ошибках, увеличивается при лёгких ответах)
-- `lastReview` — дата последнего повторения (ISO строка)
-- `nextReview` — дата следующего повторения
+- `lastReview` — дата последнего повторения (timestamp в мс, Date.now())
+- `nextReview` — дата следующего повторения (timestamp в мс)
 - `status` — `"new"` (новое), `"learning"` (в процессе), `"review"` (готово к повторению)
 
 ---

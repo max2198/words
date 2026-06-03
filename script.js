@@ -55,21 +55,9 @@ class SpacedRepetition {
         }
     }
 
-    createDefaultProgress() {
-        const wordProgress = {};
-        words.forEach(word => {
-            const key = word.english.toLowerCase();
-            wordProgress[key] = {
-                interval: 0,
-                repetitionCount: 0,
-                easFactor: 2.5,
-                lastReview: null,
-                nextReview: Date.now(),
-                status: 'new' // 'new', 'learning', 'review'
-            };
-        });
+   createDefaultProgress() {
         return {
-            wordProgress: wordProgress,
+            wordProgress: {},
             totalReviews: 0,
             lessonsCompleted: 0
         };
@@ -156,9 +144,9 @@ class SpacedRepetition {
         // Классифицируем слова
         words.forEach(word => {
             const wp = this.getWordProgress(word);
-            if (wp.status === 'new' || wp.nextReview > now) {
+            if (wp.status === 'new') {
                 newWords.push(word);
-            } else {
+            } else if (wp.nextReview <= now) {
                 dueWords.push(word);
             }
         });
@@ -171,19 +159,15 @@ class SpacedRepetition {
             lesson.push(...dueWords, ...newWords);
         } else if (dueWords.length >= MAX_LESSON_SIZE) {
             // Только слова для повторения
-            const shuffled = dueWords.sort(() => 0.5 - Math.random());
-            lesson.push(...shuffled.slice(0, MAX_LESSON_SIZE));
+            lesson.push(...this._shuffle(dueWords).slice(0, MAX_LESSON_SIZE));
         } else {
             // Комбинация: гарантируем минимум 1 новое слово
             const newWordCount = Math.max(1, MAX_LESSON_SIZE - dueWords.length);
             const dueWordCount = MAX_LESSON_SIZE - newWordCount;
 
             // Перемешиваем и выбираем
-            const shuffledDue = dueWords.sort(() => 0.5 - Math.random());
-            const shuffledNew = newWords.sort(() => 0.5 - Math.random());
-
-            lesson.push(...shuffledDue.slice(0, dueWordCount));
-            lesson.push(...shuffledNew.slice(0, newWordCount));
+            lesson.push(...this._shuffle(dueWords).slice(0, dueWordCount));
+            lesson.push(...this._shuffle(newWords).slice(0, newWordCount));
         }
 
         // Помечаем слова флагами
@@ -198,12 +182,25 @@ class SpacedRepetition {
     }
 
     // ========================
+    // Утилиты
+    // ========================
+    _shuffle(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+    // ========================
     // Статистика
     // ========================
     getStats() {
         let newCount = 0;
         let learningCount = 0;
         let reviewCount = 0;
+        let masteredCount = 0;
         const now = Date.now();
 
         words.forEach(word => {
@@ -211,13 +208,15 @@ class SpacedRepetition {
             if (wp.status === 'new') newCount++;
             else if (wp.status === 'learning') learningCount++;
             else if (wp.nextReview <= now) reviewCount++;
+            else if (wp.interval >= 7 && wp.repetitionCount >= 5) masteredCount++;
         });
 
         return {
             new: newCount,
             learning: learningCount,
             review: reviewCount,
-            mastered: this.progress.lessonsCompleted || 0,
+            mastered: masteredCount,
+            lessonsCompleted: this.progress.lessonsCompleted || 0,
             totalReviews: this.progress.totalReviews || 0
         };
     }
@@ -369,7 +368,7 @@ class SpacedRepetition {
                         transcriptionBack.textContent = word.transcription;
                     }
                     this.updateDisplayCounters();
-                }, 284);
+                }, 300);
             } else {
                 this.updateDisplayWords();
                 this.updateDisplayCounters();
@@ -452,6 +451,7 @@ class SpacedRepetition {
 let app = null;
 
 function initApp() {
+    if (app) return;
     app = new SpacedRepetition();
     app.initLesson();
 
